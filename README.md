@@ -1,9 +1,4 @@
-# Aggregation
-Aggregation
 
-
-NoSQL
-=====
 
 Zadanie 2
 -----
@@ -22,7 +17,7 @@ db.impor.aggregate([
 { "_id" : null, "count" : 35684 }
 ```
     
-Najpopularniejsze programy telewizyjne:
+Najczestsze tytuly
 
 ```javascript
 db.impor.aggregate([
@@ -58,8 +53,7 @@ db.impor.aggregate([
 ```javascript
 
 ```
-
-N
+zliczanie
 
 ```javascript
 db.impor.aggregate([
@@ -83,5 +77,4 @@ db.impor.aggregate([
 { "_id" : "Liked", "count" : 1538217 }
 ```
 
-**Java**
 
